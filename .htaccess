@@ -1,4 +1,2 @@
-User-agent: * 
-Disallow: /hiddendir/
+redirect 301 /filename.html https://www.apple.com
 
-redirect 301 /somename http://nathankromer.com
