@@ -9,17 +9,14 @@
 
 body {
   	background-color: #ffffff;
-
     font-weight: 400;
     font-size: 12px;
     color: #555;
-	   margin: 0;
-	   padding:0;
-	
-
+	 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+
 
 
 /* Titles */
@@ -30,10 +27,8 @@ h1, h2, h3, h4, h6, z {
 
 h1 {
 	font-size: 30px;
-	margin-top: 50%;
-	margin-bottom: 8%;
+	padding-bottom:25px;
 }
-
 
 
 /* Paragraph & Typographic */
@@ -45,9 +40,6 @@ p {
 	margin-bottom:5%;
 }
 
-.centered {
-    text-align: center;
-}
 
 /* Links */
 a {
@@ -89,18 +81,16 @@ a:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
+} 
 
-.bg {
-	height:100%;
-	position:relative;
-	top:0;
-	width:100%;
-	background: url(../img/bg01.jpg);
+
+#first {
+	padding-top:15%;
+	margin-right:-20%;
 }
 
 #second {
-	margin-bottom:30%;
+	padding-bottom:10%;
 }
 
 
