@@ -69,10 +69,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-
-
-
-#backgroundimage{
+.backgroundimage {
 	background:url(../img/bg01.jpg) no-repeat  rgba(0, 0, 0, 0);
 	min-height:100vh;
 	position:relative;
@@ -81,8 +78,22 @@ a:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-} 
+}
 
+
+
+@media only screen and (max-width: 768px) {
+    .backgroundimage {
+		background:url(../img/bg01.jpg);
+		min-height:40vh;
+		position:relative;
+		background-position:center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+    }
+}
 
 #first {
 	padding-top:15%;
